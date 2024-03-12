@@ -1,0 +1,22 @@
+.activePlayerContainer {
+  position: absolute;
+  width: 75%; /* equivalent to w-9/12 in Tailwind */
+  left: 0;
+  right: 0;
+  margin-left: auto; /* equivalent to mx-auto in Tailwind */
+  margin-right: auto; /* equivalent to mx-auto in Tailwind */
+  top: 20px;
+  bottom: 50px;
+  height: calc(100vh - 20px - 100px);
+}
+
+.inActivePlayerContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column; /* equivalent to flex-col in Tailwind */
+  overflow-y: auto;
+  width: 200px;
+  height: calc(100vh - 20px);
+  right: 20px;
+  top: 20px;
+}

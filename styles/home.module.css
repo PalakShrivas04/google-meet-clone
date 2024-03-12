@@ -1,0 +1,47 @@
+.homeContainer {
+  width: 60%;
+  margin: auto;
+  padding: 2px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-top: 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeContainer h1 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.homeContainer button {
+  background-color: red; /* Change this to the desired red color */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.homeContainer .enterRoom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.75rem;
+  width: 100%;
+}
+
+.homeContainer .enterRoom input {
+  color: black;
+  font-size: 1.125rem;
+  padding: 0.25rem;
+  border-radius: 8px;
+  width: 75%;
+  margin-bottom: 0.75rem;
+}
+
+.homeContainer .separatorText {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
