@@ -1,6 +1,6 @@
 .activePlayerContainer {
   position: absolute;
-  width: 75%; /* equivalent to w-9/12 in Tailwind */
+  width: 70%; /* equivalent to w-9/12 in Tailwind */
   left: 0;
   right: 0;
   margin-left: auto; /* equivalent to mx-auto in Tailwind */
@@ -15,8 +15,8 @@
   display: flex;
   flex-direction: column; /* equivalent to flex-col in Tailwind */
   overflow-y: auto;
-  width: 200px;
+  width: 250px;
   height: calc(100vh - 20px);
-  right: 20px;
-  top: 20px;
+  right: 100px;
+  top: -70px;
 }
